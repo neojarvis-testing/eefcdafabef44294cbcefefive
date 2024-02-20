@@ -6,6 +6,5 @@ tables should  be retrived
 
 example table
 school_class
-school_class
 school_student
 school_subject
