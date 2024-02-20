@@ -8,6 +8,7 @@ sqlcmd -S localhost -U SA -Q "RESTORE DATABASE [appdb] FROM DISK = N'/home/coder
 
 
 sqlcmd -S 127.0.0.1 -d appdb -U SA -P examlyMssql@123 -i /home/coder/project/workspace/main.sql
+sqlcmd -S 127.0.0.1 -d appdb -U SA -P examlyMssql@123 -i /home/coder/project/workspace/result.sql
 
 
 sqlcmd -S localhost -U SA -P examlyMssql@123 -Q "CREATE DATABASE IF NOT EXISTS appdb";
