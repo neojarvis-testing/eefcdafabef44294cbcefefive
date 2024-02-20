@@ -7,7 +7,7 @@ sqlcmd -S localhost -U SA -Q "RESTORE DATABASE [gokuldb] FROM DISK = N'/home/cod
 sqlcmd -S localhost -U SA -Q "RESTORE DATABASE [appdb] FROM DISK = N'/home/coder/project/workspace/gokuldb.bak'"
 
 
-sqlcmd -S 127.0.0.1 -d appdb -U SA -P examlyMssql@123 -i /home/coder/project/workspace/main.sql
+sqlcmd -S 127.0.0.1 -d appdb -U SA -P examlyMssql@123 -i /home/coder/project/workspace/data.sql
 sqlcmd -S 127.0.0.1 -d appdb -U SA -P examlyMssql@123 -i /home/coder/project/workspace/result.sql
 
 
